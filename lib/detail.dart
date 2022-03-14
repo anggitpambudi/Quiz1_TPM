@@ -85,7 +85,7 @@ class DetailMenu extends StatelessWidget {
       width: MediaQuery.of(context).size.width,
       child: ElevatedButton(
         onPressed: () {
-          String text = "";
+          String text = "Silakan Lakukan Pembayaran Di Kasir";
           SnackBar snackBar = SnackBar(
             content: Text(text),
           );
